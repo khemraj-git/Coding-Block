@@ -5,5 +5,4 @@ public class class1 {
         int c=x+y;
         System.out.println(c);
     }
-
 }
