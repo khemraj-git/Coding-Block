@@ -5,7 +5,7 @@ public class pattern_printing {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("enter the value of n:-");
-        int n = sc.nextInt();
+        int n = 5;
 
 //        System.out.println("square printing using for loop");
 //        square_print_using_for(n);
@@ -30,9 +30,9 @@ public class pattern_printing {
 
 //        right_angle_triangle_with_space_using_for(n);
 
-//        patter_with_2_space_using_while(n);
+        patter_with_2_space_using_while(n);
 
-        boundry_pattern(n);
+//        boundry_pattern(n);
     }
 
 

@@ -1,6 +1,6 @@
 public class pyramid_print_v2 {
     public static void main(String[] args) {
-        int n =8;
+        int n =5;
         pattern_print(n);
     }
     static void pattern_print(int n){
