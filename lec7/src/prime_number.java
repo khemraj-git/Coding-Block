@@ -20,7 +20,5 @@ public class prime_number {
             System.out.println("it is not a prime num");
         }
 
-
-
     }
 }
