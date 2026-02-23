@@ -3,7 +3,7 @@
 public class hollow_diamond {
     public static void main(String[] args) {
         int n=5;
-        int space=1;
+        int space=0;
         int star=n-1;
         int row=1;
 

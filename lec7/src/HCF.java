@@ -9,7 +9,8 @@ public class HCF {
         int b = sc.nextInt();
 
         while (a%b!=0){
-            int remainder = a%b ;
+            int remainder = a%b;
+
             if (remainder==0){
 //                System.out.println(b);
                 break;

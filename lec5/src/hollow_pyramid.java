@@ -32,7 +32,6 @@ public class hollow_pyramid {
             space = space -2;
             star++;
             row++;
-
         }
     }
 }
