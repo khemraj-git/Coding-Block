@@ -6,15 +6,10 @@ public class rotate_Array {
         int k = 3;
         rotate(arr,k);
         System.out.println(Arrays.toString(arr));
-
-
-
     }
     static void reverse(int[] nums,int start, int end){
-
         while (start<end){
             int temp = nums[start];
-
             nums[start]=nums[end];
             nums[end]=temp;
             start++;

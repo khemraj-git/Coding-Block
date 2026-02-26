@@ -23,7 +23,7 @@ public class pattern_printing {
 //        reverse_rightAngled_triangle_using_for(n);
 
 //        System.out.println("reverse right angle triangle using while loop");
-        reverse_rightAngled_triangle_using_while(n);
+//        reverse_rightAngled_triangle_using_while(n);
 
 //        right_angle_triangle_with_space_using_for(n);
 //            right_angle_triangle_with_space_using_while(n);

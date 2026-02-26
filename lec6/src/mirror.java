@@ -1,7 +1,7 @@
 public class mirror {
     public static void main(String[] args) {
         int n = 5;
-//        upper_half(n);
+        upper_half(n);
         lower_half(n);
     }
     static void upper_half(int n){
