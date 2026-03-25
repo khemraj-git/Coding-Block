@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MaximumProductOF3number {
     public static void main(String[] args) {
         int[] nums = {1,2,3};
@@ -6,18 +8,20 @@ public class MaximumProductOF3number {
 
     }
     static int maximumProduct(int[] nums) {
-
-        int product = 1;
-        int maxproduct = Integer.MIN_VALUE;
-        for (int i = 0; i < nums.length ; i++) {
-            product=product*nums[i];
-            if(maxproduct<product){
-                maxproduct=product;
-            }
-            if (maxproduct<0){
-                product=1;
+        int n = nums.length;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length-1-i; j++) {
+                if(nums[j]>nums[j+1]){
+                    int temp = nums[j];
+                    nums[j]=nums[j+1];
+                    nums[j+1]=temp;
+                }
             }
         }
-        return maxproduct;
+//        Arrays.sort(nums);
+        int leftProduct = nums[0]*nums[1]*nums[n-1];
+        int rightProduct = nums[n-1]*nums[n-2]*nums[n-3];
+
+        return Math.max(leftProduct,rightProduct);
     }
 }
